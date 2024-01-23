@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tharun-gadupudi's personal portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0692e1ec03.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box"> 
+          <img src="./assets/images/me-2.png" alt="Tharun gadupudi" width="80" style="border-radius: 10%; ">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="tharun-gadupudi" style="font-weight: bold; color: black;">Tharun gadupudi</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <i class="fa-solid fa-square-envelope fa-lg" style="color: black"></i>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" style="font-weight: bold; color: black;">Email</p>
+
+              <a href="mailto:tharungadupudi@gmail.com" class="contact-link" style="color: black;">tharungadupudi@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <i class="fa-solid fa-square-phone fa-lg" style="color: black"></i>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" style="font-weight: bold; color: black;">Phone</p>
+
+              <a href="tel:7989182434" class="contact-link" style="color: black;">+91 7989182434</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <i class="fa-regular fa-calendar-days fa-lg" style="color: black"></i>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" style="font-weight: bold; color: black;">Birthday</p>
+
+              <time datetime="1982-06-23" style="color: black;">September 15, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <i class="fa-solid fa-location-dot fa-lg" style="color: black"></i>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" style="font-weight: bold; color: black;">Location</p>
+
+              <address style="color: black;">Guntur, Vadlamudi, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/tharungadupudi/" class="social-link">
+              <i class="fa-brands fa-linkedin-in" style="color: black;"></i>           </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/tharun_gadupudi" class="social-link">
+              <i class="fa-brands fa-twitter" style="color: black;"></i>            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/tharun099" class="social-link">
+              <i class="fa-brands fa-github" style="color: black;"></i>            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar" style="background-color: #f0f2f5;">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello there, I am a student pursuing my B.Tech 3rd year in Vignan’s Foundation for Science, Technology & Research. 
+            I am passionate about creating websites and I want to be a professional web developer.
+          </p>
+
+          <p>
+            Experienced programmer proficient in C, Java, Python, MySQL, HTML, CSS, and JavaScript, with a strong background 
+            in web development using Visual Studio Code. Dedicated to creating aesthetically pleasing and user-friendly websites 
+            that align with client expectations. 
+            Eager to learn and explore additional facets of web development, including design, security, and optimization.
+          </p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm learning</h3>
+
+          <ul class="service-list">
+
+            
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-solid fa-code fa-xl"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" style="font-weight: bold; color: black;">Web development</h4>
+
+                <p class="service-item-text">
+                  Crafting dynamic and responsive websites using HTML, CSS, and JavaScript.                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-brands fa-python fa-2xl"></i>              
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" style="font-weight: bold; color: black;">Python</h4>
+
+                <p class="service-item-text">
+                  Exploring the versatile world of Python for diverse applications, from data analysis to automation.                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-brands fa-node fa-2xl"></i>              
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" style="font-weight: bold; color: black;">Node.js</h4>
+
+                <p class="service-item-text">
+                  Building scalable and efficient server-side applications with the power of JavaScript.                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-brands fa-react fa-2xl"></i>              
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" style="font-weight: bold; color: black;">React.js</h4>
+
+                <p class="service-item-text">
+                  Creating interactive and modern user interfaces through the component-based architecture of React.js.                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-solid fa-database fa-2xl"></i>              
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" style="font-weight: bold; color: black;">MongoDB</h4>
+
+                <p class="service-item-text">
+                  Designing and interacting with NoSQL databases for scalable and efficient application development.                </p>
+              </div>
+
+            </li>
+          </li>
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <i class="fa-solid fa-file-video fa-2xl"></i>            
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title" style="font-weight: bold; color: black;">Video Editing</h4>
+
+              <p class="service-item-text">
+                Exploring creative storytelling through the art of video editing.              </p>
+            </div>
+
+          </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt=" " width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt=" ">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <i class="fa-solid fa-book-open fa-sm" style="color: black"></i>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graduation</h4>
+
+              <span style="font-weight: bold;">2021 — Present</span>
+
+              <p class="timeline-text">
+                Currently, I am pursuing a Bachelor of Technology (B.Tech) degree 
+                in Information Technology at Vignan's Foundation for Science and 
+                Technology, Vadlamudi, Guntur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intermediate</h4>
+
+              <span style="font-weight: bold;">2019 — 2020</span>
+
+              <p class="timeline-text">
+                I pursued my 11th and 12th standards (Board of Intermediate) 
+                at Sri Chaithanya Group of Colleges, Vijayawada, from 2019 to 2020, 
+                attaining an overall percentage of 85.3%.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school</h4>
+
+              <span style="font-weight: bold;">2018 — 2019</span>
+
+              <p class="timeline-text">
+                I completed my 10th standard (SSC) at Oxford Group of Schools, Narasaraopet, in 2019, 
+                achieving a GPA of 9.0.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <i class="fa-solid fa-book-open fa-sm" style="color: black"></i>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web development (Project)</h4>
+
+              <span style="font-weight: bold;">2023 — 2024</span>
+
+              <p class="timeline-text">
+                During my third year in college, I undertook an Individual Development 
+                Project (IDP) focused on creating a comprehensive website to showcase diverse 
+                recipes from around the world. The main objective of this project was to provide 
+                users with a convenient platform to explore and access a wide variety of recipes.<br><br>
+                These experiences have significantly contributed to my proficiency in web development 
+                and project management.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern</h4>
+
+              <span style="font-weight: bold;">2023</span>
+
+              <p class="timeline-text">
+                I gained valuable experience through a web development internship at Bharat 
+                Intern in 2023. During this internship, I successfully completed three projects, including the 
+                development of a portfolio website, a temperature converter website, and a Netflix clone. <br><br>Each 
+                project enhanced my skills in web development and provided practical insights into creating user-friendly 
+                interfaces.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+
+      </article>
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/tharun099/bharat_intern/tree/main/netflix">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/porject-1.jpg" alt="Netflix Clone" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Netflix Clone</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/tharun099/bharat_intern/tree/main/temp_converter">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.jpg" alt="Temperature Converter" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Temperature Converter</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/tharun099/bharat_intern/tree/main/potfolio">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.jpg" alt="Portfolio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Basic Portfolio Website</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="./landing.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.jpg" alt="Food Recipe's" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tasty Hub(Online Recipe Sharing Platform)</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="./post.html">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Wonders of Web" loading="lazy">
+                </figure>
+
+                <div class="blog-content" style="background-color: #f0f2f5">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Technology</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Dec 26, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Wonders of Web
+                  </h3>
+
+                  <p class="blog-text">
+                    
+Explore web development evolution, HTML5, CSS, and JavaScript for dynamic, interactive websites. Valuable skills for digital success.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
